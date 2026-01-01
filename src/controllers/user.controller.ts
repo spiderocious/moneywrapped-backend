@@ -32,8 +32,8 @@ export class UserController {
     const lang = ResponseUtil.extractLanguage(req);
     ResponseUtil.setLanguage(lang);
 
-    const { username, password } = req.body;
-    const result = await userService.login(username, password);
+    const { email, password } = req.body;
+    const result = await userService.login(email, password);
 
     if (!result.success) {
       ResponseUtil.badRequest(res, result.messageKey!);

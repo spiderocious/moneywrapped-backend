@@ -1,0 +1,82 @@
+{
+  "name": "MoneyWrapped Admin API",
+  "description": "Admin endpoints for managing users",
+  "baseUrl": "{{BASE_URL}}",
+  "auth": {
+    "type": "bearer",
+    "token": "{{ADMIN_TOKEN}}"
+  },
+  "requests": [
+    {
+      "name": "Get List of Users",
+      "method": "GET",
+      "url": "{{BASE_URL}}/api/admin/users",
+      "description": "List all users with pagination",
+      "headers": {
+        "Authorization": "Bearer {{ADMIN_TOKEN}}",
+        "Content-Type": "application/json"
+      },
+      "queryParams": {
+        "page": "1",
+        "limit": "20"
+      }
+    },
+    {
+      "name": "Get User Details",
+      "method": "GET",
+      "url": "{{BASE_URL}}/api/admin/users/:userId",
+      "description": "Get detailed information about a specific user",
+      "headers": {
+        "Authorization": "Bearer {{ADMIN_TOKEN}}",
+        "Content-Type": "application/json"
+      },
+      "pathParams": {
+        "userId": "USR_XXXXXXXXXXXXXXXX"
+      }
+    },
+    {
+      "name": "Add Bonus Quota to User",
+      "method": "PATCH",
+      "url": "{{BASE_URL}}/api/admin/users/:userId/quota",
+      "description": "Increase user's bonus analysis quota",
+      "headers": {
+        "Authorization": "Bearer {{ADMIN_TOKEN}}",
+        "Content-Type": "application/json"
+      },
+      "pathParams": {
+        "userId": "USR_XXXXXXXXXXXXXXXX"
+      },
+      "body": {
+        "bonusToAdd": 5
+      }
+    },
+    {
+      "name": "Update User Tier",
+      "method": "PATCH",
+      "url": "{{BASE_URL}}/api/admin/users/:userId/tier",
+      "description": "Upgrade or downgrade user tier (free, pro, enterprise)",
+      "headers": {
+        "Authorization": "Bearer {{ADMIN_TOKEN}}",
+        "Content-Type": "application/json"
+      },
+      "pathParams": {
+        "userId": "USR_XXXXXXXXXXXXXXXX"
+      },
+      "body": {
+        "tier": "pro"
+      }
+    }
+  ],
+  "httpie_commands": {
+    "list_users": "http GET '{{BASE_URL}}/api/admin/users?page=1&limit=20' 'Authorization:Bearer {{ADMIN_TOKEN}}'",
+    "get_user_details": "http GET '{{BASE_URL}}/api/admin/users/USR_XXXXXXXXXXXXXXXX' 'Authorization:Bearer {{ADMIN_TOKEN}}'",
+    "add_bonus_quota": "http PATCH '{{BASE_URL}}/api/admin/users/USR_XXXXXXXXXXXXXXXX/quota' 'Authorization:Bearer {{ADMIN_TOKEN}}' bonusToAdd:=5",
+    "update_user_tier": "http PATCH '{{BASE_URL}}/api/admin/users/USR_XXXXXXXXXXXXXXXX/tier' 'Authorization:Bearer {{ADMIN_TOKEN}}' tier=pro"
+  },
+  "notes": {
+    "authentication": "All admin endpoints require authentication with an admin role bearer token",
+    "tier_options": ["free", "pro", "enterprise"],
+    "user_id_format": "USR_ prefix followed by 16 random characters",
+    "bonus_quota": "bonusToAdd must be a positive integer representing the number of analysis credits to add"
+  }
+}

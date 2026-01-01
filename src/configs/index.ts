@@ -4,3 +4,5 @@ export * from './jwt.config';
 export * from './cache.config';
 export * from './cors.config';
 export * from './rateLimit.config';
+export * from './ai.config';
+export * from './tier.config';

@@ -38,6 +38,16 @@ const userSchema = new Schema<IUserDocument>(
       enum: ['admin', 'user', 'guest'],
       default: 'user',
     },
+    tier: {
+      type: String,
+      enum: ['free', 'pro', 'enterprise'],
+      default: 'free',
+    },
+    analysisQuota: {
+      limit: { type: Number, default: 2 },
+      bonus: { type: Number, default: 0 },
+      used: { type: Number, default: 0 },
+    },
     isVerified: {
       type: Boolean,
       default: false,

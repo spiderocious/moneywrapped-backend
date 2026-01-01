@@ -1,4 +1,11 @@
 export type UserRole = 'admin' | 'user' | 'guest';
+export type TierType = 'free' | 'pro' | 'enterprise';
+
+export interface IAnalysisQuota {
+  limit: number;
+  bonus: number;
+  used: number;
+}
 
 export interface IUser {
   id: string;
@@ -7,6 +14,8 @@ export interface IUser {
   password?: string;
   avatar?: string;
   role: UserRole;
+  tier: TierType;
+  analysisQuota: IAnalysisQuota;
   isVerified: boolean;
   preferences: {
     soundEnabled: boolean;
@@ -53,7 +62,7 @@ export interface SignupDTO {
 }
 
 export interface LoginDTO {
-  username: string;
+  email: string;
   password: string;
 }
 

@@ -1,8 +1,13 @@
-import 'module-alias/register';
+// Only register module-alias in production (when running from dist/)
+if (!__filename.includes('/src/')) {
+  require('module-alias/register');
+}
+
 import { App } from './app';
-import { envConfig } from '@configs';
+import { aiConfig, envConfig } from '@configs';
 import { logger } from '@utils';
 import { database } from '@utils';
+import { analysisService } from '@services';
 
 class Server {
   private app: App;
@@ -14,6 +19,9 @@ class Server {
   async start(): Promise<void> {
     try {
       await database.connect();
+
+      // Mark pending analysis jobs as failed on server restart
+      await analysisService.markPendingJobsAsFailed();
 
       const server = this.app.app.listen(envConfig.port, () => {
         logger.info(`Server running on port ${envConfig.port}`);

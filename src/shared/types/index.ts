@@ -4,3 +4,6 @@ export * from './service.types';
 export * from './game.types';
 export * from './word.types';
 export * from './multiplayer.types';
+export * from './file.types';
+export * from './analysis.types';
+export * from './admin.types';

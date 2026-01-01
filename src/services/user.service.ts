@@ -64,10 +64,10 @@ export class UserService {
     }
   }
 
-  async login(username: string, password: string): Promise<ServiceResult<AuthResponse>> {
+  async login(email: string, password: string): Promise<ServiceResult<AuthResponse>> {
     try {
       const user = await UserModel.findOne({
-        username: username.toLowerCase(),
+        email: email.toLowerCase(),
       }).select('+password');
 
       if (!user || !user.password) {

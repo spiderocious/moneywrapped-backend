@@ -1,0 +1,1639 @@
+{
+  "analysis_metadata": {
+    "period_start": "2025-11-25",
+    "period_end": "2025-12-25",
+    "days_analyzed": 31,
+    "analysis_date": "2025-12-31",
+    "statement_bank": "Kuda Microfinance Bank",
+    "account_type": "Personal Current Account with Smart Overdraft"
+  },
+  "executive_summary": {
+    "financial_health_rating": "critical",
+    "health_score": 38,
+    "primary_concern": "Persistent overdraft position costing 4995.81 in monthly interest charges with closing balance of -87954.79",
+    "biggest_win": "Maintained low data spending at 27893.00 while staying digitally connected throughout the month",
+    "key_recommendation": "Immediately address overdraft by reducing cash withdrawals from 500000.00 to 200000.00 and cutting transfer spending by 30 percent to restore positive balance within 45 days",
+    "monthly_grade": "D"
+  },
+  "cash_flow_analysis": {
+    "opening_balance": -37613.87,
+    "closing_balance": -87954.79,
+    "total_inflow": 2056653.00,
+    "total_outflow": 2106993.92,
+    "net_cashflow": -50340.92,
+    "average_daily_balance": -52784.33,
+    "days_in_overdraft": 31,
+    "days_positive_balance": 0,
+    "largest_single_inflow": {
+      "amount": 800000.00,
+      "date": "2025-12-01",
+      "source": "Michelin OTP Tool to Adewale Oluwaferanmi Adeniji"
+    },
+    "largest_single_outflow": {
+      "amount": 500000.00,
+      "date": "2025-12-01",
+      "recipient": "Building Credit",
+      "category": "savings_investments"
+    },
+    "volatility_score": 8.7,
+    "burn_rate": 67967.22,
+    "runway_days": 0,
+    "income_sources": [
+      {
+        "source": "Renmoney MFB Limited Loans",
+        "amount": 342000.00,
+        "frequency": "biweekly",
+        "count": 2
+      },
+      {
+        "source": "Michelin OTP Tool",
+        "amount": 800000.00,
+        "frequency": "one_time",
+        "count": 1
+      },
+      {
+        "source": "Adewale Adeniji Moniepoint Transfers",
+        "amount": 326000.00,
+        "frequency": "weekly",
+        "count": 5
+      },
+      {
+        "source": "Adewale Oluwaferanmi Adeniji Opay",
+        "amount": 60000.00,
+        "frequency": "one_time",
+        "count": 1
+      },
+      {
+        "source": "Flexible Savings Withdrawals",
+        "amount": 24800.00,
+        "frequency": "sporadic",
+        "count": 2
+      },
+      {
+        "source": "Building Withdrawals",
+        "amount": 300000.00,
+        "frequency": "irregular",
+        "count": 3
+      }
+    ]
+  },
+  "spending_breakdown": {
+    "total_spending": 2106993.92,
+    "categories": [
+      {
+        "category": "transfers_to_people",
+        "amount": 714830.00,
+        "percentage": 0.3393,
+        "transaction_count": 88,
+        "average_transaction": 8123.07,
+        "trend": "stable",
+        "necessity_rating": "discretionary",
+        "subcategories": [
+          {
+            "name": "friends_and_family",
+            "amount": 654320.00,
+            "count": 83
+          },
+          {
+            "name": "self_transfers",
+            "amount": 60510.00,
+            "count": 5
+          }
+        ]
+      },
+      {
+        "category": "cash_withdrawals",
+        "amount": 500000.00,
+        "percentage": 0.2373,
+        "transaction_count": 5,
+        "average_transaction": 100000.00,
+        "trend": "stable",
+        "necessity_rating": "important",
+        "subcategories": [
+          {
+            "name": "building_savings_withdrawal",
+            "amount": 500000.00,
+            "count": 5
+          }
+        ]
+      },
+      {
+        "category": "shopping",
+        "amount": 240775.00,
+        "percentage": 0.1143,
+        "transaction_count": 27,
+        "average_transaction": 8917.59,
+        "trend": "increasing",
+        "necessity_rating": "important",
+        "subcategories": [
+          {
+            "name": "supermarkets",
+            "amount": 120360.00,
+            "count": 11
+          },
+          {
+            "name": "pharmacies",
+            "amount": 23295.00,
+            "count": 3
+          },
+          {
+            "name": "clothing_stores",
+            "amount": 44010.00,
+            "count": 1
+          },
+          {
+            "name": "phone_gadget_shops",
+            "amount": 32000.00,
+            "count": 1
+          },
+          {
+            "name": "other_retail",
+            "amount": 21110.00,
+            "count": 11
+          }
+        ]
+      },
+      {
+        "category": "others",
+        "amount": 221883.97,
+        "percentage": 0.1053,
+        "transaction_count": 97,
+        "average_transaction": 2287.46,
+        "trend": "stable",
+        "necessity_rating": "essential",
+        "subcategories": [
+          {
+            "name": "overdraft_interest",
+            "amount": 4995.81,
+            "count": 15
+          },
+          {
+            "name": "stamp_duty",
+            "amount": 450.00,
+            "count": 9
+          },
+          {
+            "name": "pos_transfers",
+            "amount": 46830.00,
+            "count": 13
+          },
+          {
+            "name": "unclassified",
+            "amount": 169608.16,
+            "count": 60
+          }
+        ]
+      },
+      {
+        "category": "food_dining",
+        "amount": 167125.00,
+        "percentage": 0.0793,
+        "transaction_count": 23,
+        "average_transaction": 7266.30,
+        "trend": "increasing",
+        "necessity_rating": "discretionary",
+        "subcategories": [
+          {
+            "name": "restaurants",
+            "amount": 128315.00,
+            "count": 17
+          },
+          {
+            "name": "cafes",
+            "amount": 17320.00,
+            "count": 3
+          },
+          {
+            "name": "ice_cream",
+            "amount": 21490.00,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "category": "utilities",
+        "amount": 99500.00,
+        "percentage": 0.0472,
+        "transaction_count": 5,
+        "average_transaction": 19900.00,
+        "trend": "stable",
+        "necessity_rating": "essential",
+        "subcategories": [
+          {
+            "name": "internet_starlink",
+            "amount": 57000.00,
+            "count": 1
+          },
+          {
+            "name": "google_claude_subscription",
+            "amount": 33500.00,
+            "count": 2
+          },
+          {
+            "name": "church_offering",
+            "amount": 2010.00,
+            "count": 1
+          },
+          {
+            "name": "coralpay_service",
+            "amount": 3010.00,
+            "count": 1
+          },
+          {
+            "name": "other_bills",
+            "amount": 3980.00,
+            "count": 0
+          }
+        ]
+      },
+      {
+        "category": "savings_investments",
+        "amount": 43262.95,
+        "percentage": 0.0205,
+        "transaction_count": 21,
+        "average_transaction": 2060.14,
+        "trend": "decreasing",
+        "necessity_rating": "essential",
+        "subcategories": [
+          {
+            "name": "flexible_saving_deposits",
+            "amount": 38461.60,
+            "count": 16
+          },
+          {
+            "name": "building_credit_deposit",
+            "amount": 500000.00,
+            "count": 1
+          },
+          {
+            "name": "flexible_saving_withdrawals",
+            "amount": -24800.00,
+            "count": 2
+          },
+          {
+            "name": "building_withdrawals",
+            "amount": -300000.00,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "category": "entertainment",
+        "amount": 38920.00,
+        "percentage": 0.0185,
+        "transaction_count": 6,
+        "average_transaction": 6486.67,
+        "trend": "stable",
+        "necessity_rating": "luxury",
+        "subcategories": [
+          {
+            "name": "cinema",
+            "amount": 15020.00,
+            "count": 3
+          },
+          {
+            "name": "restaurants_with_karaoke",
+            "amount": 23900.00,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "category": "transport_fuel",
+        "amount": 29510.00,
+        "percentage": 0.0140,
+        "transaction_count": 3,
+        "average_transaction": 9836.67,
+        "trend": "stable",
+        "necessity_rating": "important",
+        "subcategories": [
+          {
+            "name": "car_accessories",
+            "amount": 29510.00,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "category": "airtime_data",
+        "amount": 27893.00,
+        "percentage": 0.0132,
+        "transaction_count": 9,
+        "average_transaction": 3099.22,
+        "trend": "stable",
+        "necessity_rating": "essential",
+        "subcategories": [
+          {
+            "name": "data_bundles",
+            "amount": 22000.00,
+            "count": 4
+          },
+          {
+            "name": "airtime",
+            "amount": 6000.00,
+            "count": 3
+          },
+          {
+            "name": "cashback",
+            "amount": -143.00,
+            "count": 7
+          }
+        ]
+      },
+      {
+        "category": "healthcare",
+        "amount": 23295.00,
+        "percentage": 0.0111,
+        "transaction_count": 3,
+        "average_transaction": 7765.00,
+        "trend": "stable",
+        "necessity_rating": "essential",
+        "subcategories": [
+          {
+            "name": "pharmacy",
+            "amount": 23295.00,
+            "count": 3
+          }
+        ]
+      },
+      {
+        "category": "betting_gaming",
+        "amount": 0.00,
+        "percentage": 0.0000,
+        "transaction_count": 0,
+        "average_transaction": 0.00,
+        "trend": "stable",
+        "necessity_rating": "luxury",
+        "subcategories": []
+      }
+    ],
+    "category_rankings": {
+      "by_amount": [
+        "transfers_to_people",
+        "cash_withdrawals",
+        "shopping",
+        "others",
+        "food_dining",
+        "utilities",
+        "savings_investments",
+        "entertainment",
+        "transport_fuel",
+        "airtime_data",
+        "healthcare",
+        "betting_gaming"
+      ],
+      "by_frequency": [
+        "others",
+        "transfers_to_people",
+        "shopping",
+        "food_dining",
+        "savings_investments",
+        "airtime_data",
+        "entertainment",
+        "utilities",
+        "cash_withdrawals",
+        "transport_fuel",
+        "healthcare",
+        "betting_gaming"
+      ],
+      "by_necessity": [
+        "airtime_data",
+        "utilities",
+        "healthcare",
+        "savings_investments",
+        "others",
+        "shopping",
+        "transport_fuel",
+        "food_dining",
+        "transfers_to_people",
+        "entertainment",
+        "betting_gaming",
+        "cash_withdrawals"
+      ]
+    }
+  },
+  "merchants_and_vendors": {
+    "total_unique_merchants": 47,
+    "top_merchants": [
+      {
+        "name": "Bovas And Company Limited",
+        "category": "shopping",
+        "total_spent": 96020.00,
+        "visit_count": 5,
+        "average_per_visit": 19204.00,
+        "first_visit": "2025-11-29",
+        "last_visit": "2025-12-20",
+        "loyalty_score": 8.5,
+        "spending_trend": "stable"
+      },
+      {
+        "name": "Chronicles Restaurant And Karaoke Bar",
+        "category": "food_dining",
+        "total_spent": 58940.00,
+        "visit_count": 8,
+        "average_per_visit": 7367.50,
+        "first_visit": "2025-11-29",
+        "last_visit": "2025-12-19",
+        "loyalty_score": 9.2,
+        "spending_trend": "increasing"
+      },
+      {
+        "name": "Esther Funmilayo Ajibola",
+        "category": "transfers_to_people",
+        "total_spent": 47190.00,
+        "visit_count": 14,
+        "average_per_visit": 3370.71,
+        "first_visit": "2025-11-25",
+        "last_visit": "2025-12-24",
+        "loyalty_score": 9.8,
+        "spending_trend": "stable"
+      },
+      {
+        "name": "Lead Multi Global Ventures Limited",
+        "category": "shopping",
+        "total_spent": 39090.00,
+        "visit_count": 3,
+        "average_per_visit": 13030.00,
+        "first_visit": "2025-12-02",
+        "last_visit": "2025-12-24",
+        "loyalty_score": 6.1,
+        "spending_trend": "stable"
+      },
+      {
+        "name": "Okikiola Idowu Hammed",
+        "category": "transfers_to_people",
+        "total_spent": 37020.00,
+        "visit_count": 4,
+        "average_per_visit": 9255.00,
+        "first_visit": "2025-12-02",
+        "last_visit": "2025-12-16",
+        "loyalty_score": 7.3,
+        "spending_trend": "decreasing"
+      },
+      {
+        "name": "City-Star Supermarket",
+        "category": "shopping",
+        "total_spent": 24210.00,
+        "visit_count": 3,
+        "average_per_visit": 8070.00,
+        "first_visit": "2025-12-01",
+        "last_visit": "2025-12-16",
+        "loyalty_score": 6.8,
+        "spending_trend": "stable"
+      },
+      {
+        "name": "Just Rite Limited Justrite",
+        "category": "shopping",
+        "total_spent": 23820.00,
+        "visit_count": 3,
+        "average_per_visit": 7940.00,
+        "first_visit": "2025-11-29",
+        "last_visit": "2025-12-20",
+        "loyalty_score": 6.4,
+        "spending_trend": "stable"
+      },
+      {
+        "name": "Vanguard Pharmacy",
+        "category": "healthcare",
+        "total_spent": 14485.00,
+        "visit_count": 2,
+        "average_per_visit": 7242.50,
+        "first_visit": "2025-12-03",
+        "last_visit": "2025-12-08",
+        "loyalty_score": 5.2,
+        "spending_trend": "stable"
+      },
+      {
+        "name": "Hatlab Ice Cream Delite Limited",
+        "category": "food_dining",
+        "total_spent": 13700.00,
+        "visit_count": 3,
+        "average_per_visit": 4566.67,
+        "first_visit": "2025-11-26",
+        "last_visit": "2025-12-10",
+        "loyalty_score": 6.1,
+        "spending_trend": "stable"
+      },
+      {
+        "name": "Imperial Cinemas Limited",
+        "category": "entertainment",
+        "total_spent": 10020.00,
+        "visit_count": 2,
+        "average_per_visit": 5010.00,
+        "first_visit": "2025-11-26",
+        "last_visit": "2025-12-08",
+        "loyalty_score": 5.0,
+        "spending_trend": "stable"
+      }
+    ],
+    "merchant_diversity_score": 6.8,
+    "new_merchants_this_month": 12
+  },
+  "transfer_and_relationship_analysis": {
+    "total_transfers_out": 714830.00,
+    "total_transfers_in": 386000.00,
+    "unique_recipients": 48,
+    "unique_senders": 3,
+    "transfer_to_spending_ratio": 0.3393,
+    "top_recipients": [
+      {
+        "name": "Oladipo Segun Babatu",
+        "total_sent": 75010.00,
+        "transaction_count": 3,
+        "average_per_transaction": 25003.33,
+        "first_transaction": "2025-11-26",
+        "last_transaction": "2025-12-03",
+        "frequency_pattern": "sporadic",
+        "relationship_type": "friend",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Esther Funmilayo Ajibola",
+        "total_sent": 47190.00,
+        "transaction_count": 14,
+        "average_per_transaction": 3370.71,
+        "first_transaction": "2025-11-25",
+        "last_transaction": "2025-12-24",
+        "frequency_pattern": "regular",
+        "relationship_type": "family",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Oloyede Tolulope Oyewole",
+        "total_sent": 41020.00,
+        "transaction_count": 3,
+        "average_per_transaction": 13673.33,
+        "first_transaction": "2025-11-25",
+        "last_transaction": "2025-12-16",
+        "frequency_pattern": "sporadic",
+        "relationship_type": "friend",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Uchenna Nwafor",
+        "total_sent": 41010.00,
+        "transaction_count": 1,
+        "average_per_transaction": 41010.00,
+        "first_transaction": "2025-11-29",
+        "last_transaction": "2025-11-29",
+        "frequency_pattern": "one_time",
+        "relationship_type": "loan",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Okikiola Idowu Hammed",
+        "total_sent": 37020.00,
+        "transaction_count": 4,
+        "average_per_transaction": 9255.00,
+        "first_transaction": "2025-12-02",
+        "last_transaction": "2025-12-16",
+        "frequency_pattern": "sporadic",
+        "relationship_type": "friend",
+        "spending_velocity": "decreasing"
+      },
+      {
+        "name": "Sodiq Ayomide Najeem",
+        "total_sent": 40300.00,
+        "transaction_count": 1,
+        "average_per_transaction": 40300.00,
+        "first_transaction": "2025-12-03",
+        "last_transaction": "2025-12-03",
+        "frequency_pattern": "one_time",
+        "relationship_type": "loan",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Tunde Opeyemi Olawale",
+        "total_sent": 30000.00,
+        "transaction_count": 1,
+        "average_per_transaction": 30000.00,
+        "first_transaction": "2025-12-02",
+        "last_transaction": "2025-12-02",
+        "frequency_pattern": "one_time",
+        "relationship_type": "friend",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Afeez Akinloye Bakare",
+        "total_sent": 28000.00,
+        "transaction_count": 1,
+        "average_per_transaction": 28000.00,
+        "first_transaction": "2025-12-04",
+        "last_transaction": "2025-12-04",
+        "frequency_pattern": "one_time",
+        "relationship_type": "friend",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Ayano Ifeoluwa Emmanuel",
+        "total_sent": 25010.00,
+        "transaction_count": 1,
+        "average_per_transaction": 25010.00,
+        "first_transaction": "2025-12-04",
+        "last_transaction": "2025-12-04",
+        "frequency_pattern": "one_time",
+        "relationship_type": "friend",
+        "spending_velocity": "stable"
+      },
+      {
+        "name": "Jamiu Oluwafemi Abdulraheem",
+        "total_sent": 15030.00,
+        "transaction_count": 3,
+        "average_per_transaction": 5010.00,
+        "first_transaction": "2025-11-25",
+        "last_transaction": "2025-11-26",
+        "frequency_pattern": "regular",
+        "relationship_type": "friend",
+        "spending_velocity": "stable"
+      }
+    ],
+    "self_transfers": {
+      "count": 5,
+      "total_amount": 60510.00,
+      "purpose": "account_juggling"
+    },
+    "generosity_score": 8.9,
+    "potential_loan_relationships": [
+      {
+        "recipient": "Uchenna Nwafor",
+        "total_sent": 41010.00,
+        "pattern": "Large one-time transfer suggesting loan or emergency assistance",
+        "recommendation": "Track repayment status and set clear repayment terms if loan"
+      },
+      {
+        "recipient": "Sodiq Ayomide Najeem",
+        "total_sent": 40300.00,
+        "pattern": "Large one-time transfer suggesting loan or emergency assistance",
+        "recommendation": "Track repayment status and set clear repayment terms if loan"
+      },
+      {
+        "recipient": "Tunde Opeyemi Olawale",
+        "total_sent": 30000.00,
+        "pattern": "Large one-time transfer suggesting loan or emergency assistance",
+        "recommendation": "Track repayment status and set clear repayment terms if loan"
+      },
+      {
+        "recipient": "Afeez Akinloye Bakare",
+        "total_sent": 28000.00,
+        "pattern": "Large one-time transfer suggesting loan or emergency assistance",
+        "recommendation": "Track repayment status and set clear repayment terms if loan"
+      },
+      {
+        "recipient": "Ayano Ifeoluwa Emmanuel",
+        "total_sent": 25010.00,
+        "pattern": "Large one-time transfer suggesting loan or emergency assistance",
+        "recommendation": "Track repayment status and set clear repayment terms if loan"
+      }
+    ]
+  },
+  "temporal_patterns": {
+    "spending_by_day_of_week": [
+      {
+        "day": "Monday",
+        "amount": 354821.32,
+        "transaction_count": 47,
+        "average_transaction": 7549.39,
+        "primary_categories": [
+          "transfers_to_people",
+          "shopping",
+          "cash_withdrawals"
+        ]
+      },
+      {
+        "day": "Tuesday",
+        "amount": 356443.12,
+        "transaction_count": 38,
+        "average_transaction": 9380.08,
+        "primary_categories": [
+          "transfers_to_people",
+          "shopping",
+          "food_dining"
+        ]
+      },
+      {
+        "day": "Wednesday",
+        "amount": 413698.32,
+        "transaction_count": 44,
+        "average_transaction": 9402.23,
+        "primary_categories": [
+          "transfers_to_people",
+          "cash_withdrawals",
+          "shopping"
+        ]
+      },
+      {
+        "day": "Thursday",
+        "amount": 344591.79,
+        "transaction_count": 42,
+        "average_transaction": 8204.57,
+        "primary_categories": [
+          "transfers_to_people",
+          "shopping",
+          "food_dining"
+        ]
+      },
+      {
+        "day": "Friday",
+        "amount": 316268.53,
+        "transaction_count": 46,
+        "average_transaction": 6875.40,
+        "primary_categories": [
+          "transfers_to_people",
+          "food_dining",
+          "shopping"
+        ]
+      },
+      {
+        "day": "Saturday",
+        "amount": 216103.84,
+        "transaction_count": 32,
+        "average_transaction": 6753.24,
+        "primary_categories": [
+          "transfers_to_people",
+          "food_dining",
+          "entertainment"
+        ]
+      },
+      {
+        "day": "Sunday",
+        "amount": 105067.00,
+        "transaction_count": 38,
+        "average_transaction": 2764.92,
+        "primary_categories": [
+          "savings_investments",
+          "food_dining",
+          "transfers_to_people"
+        ]
+      }
+    ],
+    "spending_by_time_of_day": [
+      {
+        "time_window": "00:00-06:00",
+        "amount": 114261.72,
+        "transaction_count": 13,
+        "primary_activities": [
+          "savings_investments",
+          "utilities",
+          "transfers_to_people"
+        ]
+      },
+      {
+        "time_window": "06:00-12:00",
+        "amount": 683891.53,
+        "transaction_count": 76,
+        "primary_activities": [
+          "cash_withdrawals",
+          "savings_investments",
+          "shopping"
+        ]
+      },
+      {
+        "time_window": "12:00-18:00",
+        "amount": 687412.84,
+        "transaction_count": 92,
+        "primary_activities": [
+          "transfers_to_people",
+          "shopping",
+          "food_dining"
+        ]
+      },
+      {
+        "time_window": "18:00-24:00",
+        "amount": 621427.83,
+        "transaction_count": 106,
+        "primary_activities": [
+          "transfers_to_people",
+          "food_dining",
+          "entertainment"
+        ]
+      }
+    ],
+    "dangerous_spending_windows": [
+      {
+        "time_period": "18:00-22:00 Weekdays",
+        "total_spent": 487320.00,
+        "reason": "Evening restaurant and entertainment spending with friends peaks during this window"
+      },
+      {
+        "time_period": "December 4th 09:00-20:00",
+        "total_spent": 319681.32,
+        "reason": "Massive spending day with cash withdrawals and multiple large transfers"
+      },
+      {
+        "time_period": "First 3 days after income receipt",
+        "total_spent": 892453.00,
+        "reason": "43 percent of monthly spending occurs within 72 hours of receiving major income"
+      }
+    ],
+    "payday_behavior": {
+      "estimated_payday": "25th to 29th of month",
+      "spending_spike_after_payday": true,
+      "days_to_spend_50_percent": 5,
+      "first_week_spending_percentage": 0.5834
+    },
+    "weekly_patterns": {
+      "weekday_spending": 1786823.08,
+      "weekend_spending": 320170.84,
+      "weekday_avg_daily": 357364.62,
+      "weekend_avg_daily": 53361.81
+    }
+  },
+  "recurring_transactions": {
+    "total_recurring_commitments": 115495.81,
+    "recurring_items": [
+      {
+        "description": "Adewale Adeniji Moniepoint Regular Transfers",
+        "category": "income",
+        "frequency": "weekly",
+        "average_amount": 65200.00,
+        "total_amount": 326000.00,
+        "transaction_count": 5,
+        "next_expected_date": "2026-01-02",
+        "cancellation_potential": "not_recommended",
+        "annual_cost_projection": 3390400.00
+      },
+      {
+        "description": "Flexible Saving Samp Things Deposits",
+        "category": "savings_investments",
+        "frequency": "irregular",
+        "average_amount": 2403.85,
+        "total_amount": 38461.60,
+        "transaction_count": 16,
+        "next_expected_date": "2026-01-05",
+        "cancellation_potential": "not_recommended",
+        "annual_cost_projection": 115384.80
+      },
+      {
+        "description": "Smart Overdraft Interest Application",
+        "category": "fees",
+        "frequency": "daily",
+        "average_amount": 333.05,
+        "total_amount": 4995.81,
+        "transaction_count": 15,
+        "next_expected_date": "2026-01-01",
+        "cancellation_potential": "recommended",
+        "annual_cost_projection": 121939.44
+      },
+      {
+        "description": "Data Bundle 10GB Monthly Plan",
+        "category": "airtime_data",
+        "frequency": "biweekly",
+        "average_amount": 4000.00,
+        "total_amount": 12000.00,
+        "transaction_count": 3,
+        "next_expected_date": "2026-01-06",
+        "cancellation_potential": "not_recommended",
+        "annual_cost_projection": 96000.00
+      },
+      {
+        "description": "Google Claude Subscription",
+        "category": "utilities",
+        "frequency": "monthly",
+        "average_amount": 33500.00,
+        "total_amount": 67000.00,
+        "transaction_count": 2,
+        "next_expected_date": "2026-01-03",
+        "cancellation_potential": "consider",
+        "annual_cost_projection": 402000.00
+      },
+      {
+        "description": "Stamp Duty on Electronic Funds Transfer",
+        "category": "fees",
+        "frequency": "per_large_inflow",
+        "average_amount": 50.00,
+        "total_amount": 450.00,
+        "transaction_count": 9,
+        "next_expected_date": "2026-01-10",
+        "cancellation_potential": "not_recommended",
+        "annual_cost_projection": 600.00
+      },
+      {
+        "description": "Esther Funmilayo Ajibola Regular Transfers",
+        "category": "transfers_to_people",
+        "frequency": "weekly",
+        "average_amount": 3370.71,
+        "total_amount": 47190.00,
+        "transaction_count": 14,
+        "next_expected_date": "2026-01-04",
+        "cancellation_potential": "consider",
+        "annual_cost_projection": 175224.96
+      },
+      {
+        "description": "Starlink Internet Service",
+        "category": "utilities",
+        "frequency": "monthly",
+        "average_amount": 57000.00,
+        "total_amount": 57000.00,
+        "transaction_count": 1,
+        "next_expected_date": "2026-01-19",
+        "cancellation_potential": "not_recommended",
+        "annual_cost_projection": 684000.00
+      }
+    ],
+    "subscription_stack": {
+      "total_monthly_cost": 90500.00,
+      "subscription_count": 2,
+      "items": [
+        {
+          "service": "Starlink Internet",
+          "estimated_monthly_cost": 57000.00,
+          "usage_assessment": "essential",
+          "cheaper_alternatives": [
+            "MTN 4G Home Broadband at 20000 per month",
+            "Spectranet 4G LTE at 25000 per month"
+          ]
+        },
+        {
+          "service": "Google Claude AI",
+          "estimated_monthly_cost": 33500.00,
+          "usage_assessment": "valuable",
+          "cheaper_alternatives": [
+            "ChatGPT Plus at 20 USD approximately 32000 per month",
+            "Free tier with usage limits"
+          ]
+        }
+      ]
+    }
+  },
+  "financial_behavior_insights": {
+    "spending_personality_type": "The Generous Social Spender - You are characterized by high generosity with 34 percent of spending going to transfers to friends and family. You maintain a tech-forward lifestyle with premium subscriptions for AI tools and internet service. Your spending shows strong social engagement through frequent restaurant visits averaging 7266 per meal and regular entertainment activities. However you demonstrate poor cash flow discipline with persistent overdraft positioning and impulsive cash withdrawal patterns totaling 500000. You show fiscal responsibility awareness through attempted savings mechanisms but execution is undermined by lifestyle inflation and social spending obligations. Your financial behavior suggests someone who prioritizes relationships and experiences over financial security leading to chronic overdraft and interest charges.",
+    "impulse_spending": {
+      "estimated_impulse_amount": 284735.00,
+      "percentage_of_spending": 0.1351,
+      "common_triggers": [
+        "Evening social gatherings 18:00 to 22:00",
+        "Post-payday euphoria first 5 days after income",
+        "Weekend entertainment and dining",
+        "Friend requests for transfers",
+        "Restaurant visits with Chronicles appearing 8 times"
+      ],
+      "high_risk_times": [
+        "Friday and Saturday evenings",
+        "First week after receiving salary transfers",
+        "Lunch hours 12:00 to 14:00 weekdays",
+        "Late evening 20:00 to 22:00 for food delivery and restaurants"
+      ]
+    },
+    "decision_making_style": {
+      "type": "impulsive",
+      "evidence": [
+        "Withdrew 500000 cash in single month creating untraceable spending",
+        "Spent 319681 in single day on December 4th representing 15 percent of monthly spending",
+        "Made 88 person-to-person transfers averaging 8123 per transaction without clear tracking",
+        "Maintained negative balance entire month while continuing discretionary spending",
+        "Visited Chronicles Restaurant 8 times spending 58940 showing habitual not planned behavior",
+        "Spent 41010 on Uchenna Nwafor and 40300 on Sodiq Ayomide in single transactions suggesting reactive financial decisions"
+      ]
+    },
+    "financial_maturity_score": 34,
+    "money_management_strengths": [
+      "Maintains disciplined data spending at only 27893 for entire month showing cost consciousness in telecom",
+      "Uses automated savings mechanisms with Flexible Saving Samp Things deposits",
+      "Zero gambling or betting activity showing avoidance of high-risk financial behaviors",
+      "Diversified income sources with multiple regular transfer streams providing income stability",
+      "Regular pharmacy purchases indicating health awareness and preventive care mindset"
+    ],
+    "money_management_weaknesses": [
+      "Persistent overdraft position costing 4995.81 monthly in avoidable interest charges",
+      "Massive cash withdrawals of 500000 creating spending blind spots and accountability gaps",
+      "Transfer spending at 714830 represents 34 percent of outflow with unclear tracking or repayment mechanisms",
+      "Post-income spending surge with 58 percent of monthly spending in first week showing lack of budget discipline",
+      "Restaurant spending of 167125 averaging 7266 per visit indicating lifestyle inflation",
+      "Net negative cashflow of -50340.92 demonstrating spending exceeds income consistently",
+      "Emergency fund appears non-existent with reliance on overdraft facility for cash flow gaps"
+    ],
+    "risk_factors": [
+      {
+        "risk": "Chronic Overdraft Dependency",
+        "severity": "critical",
+        "description": "Account remained in overdraft entire 31 day period with closing balance of -87954.79 and accumulated interest charges of 4995.81 representing unsustainable debt cycle",
+        "mitigation": "Immediately reduce discretionary spending by 40 percent prioritizing overdraft elimination within 60 days. Redirect 200000 from next income to clear overdraft before any discretionary spending"
+      },
+      {
+        "risk": "Untracked Cash Spending",
+        "severity": "high",
+        "description": "Cash withdrawals of 500000 representing 24 percent of spending creates complete visibility gap on actual expenditure patterns and enables continued financial indiscipline",
+        "mitigation": "Limit cash withdrawals to 100000 monthly maximum. Use digital payments exclusively for 30 days to establish accurate spending baseline and identify leakage points"
+      },
+      {
+        "risk": "Excessive Transfer Outflows",
+        "severity": "high",
+        "description": "Person-to-person transfers of 714830 at 34 percent of spending includes multiple large one-time transfers suggesting loans without documentation or repayment tracking mechanisms",
+        "mitigation": "Establish 250000 monthly transfer budget cap. Create loan tracker spreadsheet for all transfers over 10000. Implement loan agreements with repayment schedules for amounts over 25000"
+      },
+      {
+        "risk": "Payday Spending Syndrome",
+        "severity": "medium",
+        "description": "58 percent of monthly spending concentrated in first 5 days after income receipt indicating lack of monthly budget planning and impulsive post-income behavior",
+        "mitigation": "Implement 48 hour cooling period after receiving income before any non-essential spending. Pre-allocate 50 percent of income to essential categories immediately upon receipt"
+      },
+      {
+        "risk": "Zero Emergency Fund",
+        "severity": "high",
+        "description": "Overdraft reliance and inability to maintain positive balance demonstrates complete absence of emergency reserves exposing financial vulnerability to any income disruption",
+        "mitigation": "Build 3 month emergency fund targeting 1500000 over 12 months. Start with 50000 monthly automatic transfer to separate high-yield savings account immediately after income receipt"
+      },
+      {
+        "risk": "Lifestyle Inflation",
+        "severity": "medium",
+        "description": "Restaurant spending of 167125 and entertainment of 38920 combined with premium subscriptions of 90500 monthly indicates living beyond sustainable means relative to income levels",
+        "mitigation": "Reduce restaurant visits from 23 to 12 monthly saving 80000. Cancel or downgrade one premium subscription saving 33500. Redirect savings to emergency fund"
+      }
+    ]
+  },
+  "comparative_analysis": {
+    "vs_nigerian_average": [
+      {
+        "metric": "Monthly Restaurant Spending",
+        "your_value": 167125.00,
+        "nigerian_average": 45000.00,
+        "percentile": 92,
+        "verdict": "significantly above average"
+      },
+      {
+        "metric": "Data and Airtime Spending",
+        "your_value": 27893.00,
+        "nigerian_average": 8500.00,
+        "percentile": 78,
+        "verdict": "above average"
+      },
+      {
+        "metric": "Savings Rate",
+        "your_value": 0.0187,
+        "nigerian_average": 0.15,
+        "percentile": 18,
+        "verdict": "significantly below average"
+      },
+      {
+        "metric": "Person to Person Transfer Ratio",
+        "your_value": 0.3393,
+        "nigerian_average": 0.18,
+        "percentile": 88,
+        "verdict": "significantly above average"
+      },
+      {
+        "metric": "Entertainment Spending",
+        "your_value": 38920.00,
+        "nigerian_average": 25000.00,
+        "percentile": 67,
+        "verdict": "above average"
+      },
+      {
+        "metric": "Monthly Subscription Costs",
+        "your_value": 90500.00,
+        "nigerian_average": 15000.00,
+        "percentile": 95,
+        "verdict": "significantly above average"
+      }
+    ],
+    "vs_income_bracket": [
+      {
+        "metric": "Cash Withdrawal Frequency",
+        "your_value": 5,
+        "bracket_average": 8,
+        "performance": "better than average"
+      },
+      {
+        "metric": "Overdraft Usage Days",
+        "your_value": 31,
+        "bracket_average": 12,
+        "performance": "significantly worse than average"
+      },
+      {
+        "metric": "Digital Payment Adoption",
+        "your_value": 0.7627,
+        "bracket_average": 0.65,
+        "performance": "above average"
+      },
+      {
+        "metric": "Emergency Fund Coverage",
+        "your_value": 0,
+        "bracket_average": 2.5,
+        "performance": "significantly below average"
+      }
+    ]
+  },
+  "savings_and_investment": {
+    "total_savings_activity": 38461.60,
+    "savings_rate": 0.0187,
+    "savings_mechanisms": [
+      {
+        "type": "Flexible Saving Samp Things",
+        "amount": 38461.60,
+        "frequency": "irregular"
+      },
+      {
+        "type": "Building Credit Deposit",
+        "amount": 500000.00,
+        "frequency": "one_time"
+      }
+    ],
+    "investment_activity": {
+      "detected": false,
+      "amount": 0.00,
+      "types": []
+    },
+    "recommended_savings_rate": 0.20,
+    "monthly_savings_gap": 372869.00
+  },
+  "hidden_costs_and_fees": {
+    "total_fees_and_charges": 5445.81,
+    "breakdown": [
+      {
+        "fee_type": "Smart Overdraft Interest",
+        "total_amount": 4995.81,
+        "frequency": 15,
+        "avoidability": "fully_avoidable",
+        "how_to_avoid": "Maintain positive account balance at all times. Reduce spending by 50340.92 monthly to achieve positive cashflow. Clear current overdraft of 87954.79 within 90 days through spending reduction and income allocation"
+      },
+      {
+        "fee_type": "Stamp Duty on Electronic Funds Transfer",
+        "total_amount": 450.00,
+        "frequency": 9,
+        "avoidability": "unavoidable",
+        "how_to_avoid": "This is mandatory CBN charge on electronic transfers above 10000. Cannot be avoided but can be minimized by consolidating smaller transfers into fewer larger transactions"
+      }
+    ],
+    "annual_fee_projection": 65349.72,
+    "comparison_to_spending": 0.0026
+  },
+  "cash_vs_digital": {
+    "cash_withdrawals": {
+      "total_amount": 500000.00,
+      "frequency": 5,
+      "average_withdrawal": 100000.00,
+      "percentage_of_spending": 0.2373
+    },
+    "digital_transactions": {
+      "total_amount": 1606993.92,
+      "percentage_of_spending": 0.7627
+    },
+    "cash_discipline_score": 7.2,
+    "recommendation": "Your cash withdrawal pattern of 500000 monthly creates significant spending blind spots. Reduce cash withdrawals to 150000 maximum monthly and use digital payments for all trackable expenses. This will improve spending visibility by 35 percent and enable better budget adherence"
+  },
+  "lifestyle_indicators": {
+    "dining_habits": {
+      "restaurant_spending": 167125.00,
+      "grocery_spending": 120360.00,
+      "restaurant_to_grocery_ratio": 1.39,
+      "dining_out_frequency": 23,
+      "average_meal_cost": 7266.30,
+      "lifestyle_indicator": "frequent_diner"
+    },
+    "transportation": {
+      "total_transport_spend": 29510.00,
+      "fuel_spending": 0.00,
+      "ride_hailing": 0.00,
+      "transport_efficiency_score": 6.5
+    },
+    "entertainment_and_leisure": {
+      "total_entertainment": 38920.00,
+      "cinema_visits": 3,
+      "other_entertainment": 23900.00,
+      "work_life_balance_indicator": "socially_active"
+    },
+    "technology_spending": {
+      "total_tech_spend": 118393.00,
+      "data_bundles": 27893.00,
+      "subscriptions": 90500.00,
+      "tech_savviness_score": 8.7
+    },
+    "health_and_wellness": {
+      "pharmacy_spending": 23295.00,
+      "fitness_spending": 0.00,
+      "health_priority_score": 5.8
+    }
+  },
+  "wrapped_highlights": {
+    "year_in_review_title": "The Generous Tech Enthusiast Who Spent While Sinking",
+    "personality_archetype": "The Social Overdraft Warrior",
+    "defining_financial_moment": {
+      "date": "2025-12-04",
+      "description": "Spent 319681.32 in single day representing 15.2 percent of entire monthly spending through massive cash withdrawals and multiple large transfers creating financial chaos",
+      "impact": "This day alone pushed account from manageable overdraft of 821.32 to deep negative territory requiring weeks to recover"
+    },
+    "biggest_surprise": "You spent more on restaurants 167125 than on groceries 120360 despite being in overdraft the entire month",
+    "most_questionable_decision": "Withdrawing 500000 in cash from building savings while account was in overdraft paying daily interest charges",
+    "smartest_financial_move": "Maintained data spending discipline at only 27893 for entire month showing ability to be cost-conscious when motivated",
+    "relationship_with_money": "Money is a social tool for you. You view spending on friends and experiences as investments in relationships evidenced by 714830 in transfers and 167125 in dining. However this generosity comes at personal financial cost with chronic overdraft and zero emergency fund. You demonstrate awareness through savings attempts but execution fails under social pressure and lifestyle expectations.",
+    "fun_facts": [
+      {
+        "title": "The Chronicles Regular",
+        "stat": "Visited Chronicles Restaurant 8 times spending 58940",
+        "context": "That is one visit every 3.875 days making it your second home",
+        "shareability_score": 7.8
+      },
+      {
+        "title": "The 100K Cash King",
+        "stat": "Every single cash withdrawal was exactly 100000",
+        "context": "You withdrew 500000 across 5 perfectly even transactions showing unusual consistency",
+        "shareability_score": 6.5
+      },
+      {
+        "title": "The Evening Spender",
+        "stat": "621427.83 spent between 18:00 and 24:00",
+        "context": "29.5 percent of all spending happens in evening hours driven by social activities",
+        "shareability_score": 7.2
+      },
+      {
+        "title": "The Generous Friend",
+        "stat": "Sent money to 48 different people this month",
+        "context": "That is 1.55 unique recipients per day making you the community bank",
+        "shareability_score": 8.9
+      },
+      {
+        "title": "The Tech Investor",
+        "stat": "Spent 90500 on Starlink and Claude AI subscriptions",
+        "context": "You pay more for internet and AI than most Nigerians earn monthly",
+        "shareability_score": 8.5
+      },
+      {
+        "title": "The December 4th Apocalypse",
+        "stat": "319681.32 spent in 24 hours",
+        "context": "Nearly one third of a million naira evaporated in a single day",
+        "shareability_score": 9.2
+      },
+      {
+        "title": "The Overdraft Champion",
+        "stat": "31 consecutive days in overdraft",
+        "context": "Not a single day in positive balance all month long",
+        "shareability_score": 6.8
+      },
+      {
+        "title": "The Esther Connection",
+        "stat": "Transferred to Esther Funmilayo Ajibola 14 times",
+        "context": "That is every 2.21 days showing strong financial interdependence",
+        "shareability_score": 7.6
+      }
+    ],
+    "achievements_unlocked": [
+      {
+        "achievement": "Overdraft Veteran",
+        "description": "Maintained negative balance for entire 31 day period without a single positive day",
+        "rarity": "uncommon"
+      },
+      {
+        "achievement": "The Community Bank",
+        "description": "Sent money to 48 unique recipients in one month",
+        "rarity": "rare"
+      },
+      {
+        "achievement": "Data Efficiency Master",
+        "description": "Spent only 27893 on data while maintaining heavy internet usage",
+        "rarity": "uncommon"
+      },
+      {
+        "achievement": "Chronicles Loyalist",
+        "description": "Visited same restaurant 8 times in 31 days",
+        "rarity": "uncommon"
+      },
+      {
+        "achievement": "100K Cash Pattern",
+        "description": "All 5 cash withdrawals were exactly 100000 showing unusual consistency",
+        "rarity": "rare"
+      },
+      {
+        "achievement": "Zero Gambling Discipline",
+        "description": "Avoided all betting and gambling despite financial stress",
+        "rarity": "common"
+      },
+      {
+        "achievement": "Evening Spending Specialist",
+        "description": "29.5 percent of spending concentrated in 6 hour evening window",
+        "rarity": "uncommon"
+      }
+    ]
+  },
+  "actionable_recommendations": {
+    "immediate_actions": [
+      {
+        "action": "Stop all cash withdrawals immediately for 30 days and use only digital payments to track every naira spent",
+        "impact": "high",
+        "difficulty": "moderate",
+        "time_to_implement": "24 hours",
+        "potential_monthly_savings": 125000.00,
+        "priority_rank": 1
+      },
+      {
+        "action": "Allocate 200000 from next Adewale Adeniji transfer directly to clearing overdraft before any discretionary spending",
+        "impact": "high",
+        "difficulty": "moderate",
+        "time_to_implement": "immediate",
+        "potential_monthly_savings": 4995.81,
+        "priority_rank": 2
+      },
+      {
+        "action": "Reduce restaurant visits from 23 to 12 monthly by meal prepping twice weekly saving 80000",
+        "impact": "high",
+        "difficulty": "moderate",
+        "time_to_implement": "7 days",
+        "potential_monthly_savings": 80000.00,
+        "priority_rank": 3
+      },
+      {
+        "action": "Set transfer budget cap of 350000 monthly representing 50 percent reduction from current 714830",
+        "impact": "high",
+        "difficulty": "hard",
+        "time_to_implement": "immediate",
+        "potential_monthly_savings": 364830.00,
+        "priority_rank": 4
+      },
+      {
+        "action": "Create loan tracking spreadsheet documenting all transfers over 10000 with repayment dates and status",
+        "impact": "medium",
+        "difficulty": "easy",
+        "time_to_implement": "2 hours",
+        "potential_monthly_savings": 0.00,
+        "priority_rank": 5
+      },
+      {
+        "action": "Cancel or downgrade one premium subscription either Claude or Starlink to cheaper alternative saving 30000 monthly",
+        "impact": "medium",
+        "difficulty": "easy",
+        "time_to_implement": "24 hours",
+        "potential_monthly_savings": 30000.00,
+        "priority_rank": 6
+      },
+      {
+        "action": "Implement 48 hour cooling period rule after receiving income before making any non-essential purchases",
+        "impact": "high",
+        "difficulty": "hard",
+        "time_to_implement": "immediate",
+        "potential_monthly_savings": 150000.00,
+        "priority_rank": 7
+      },
+      {
+        "action": "Set up automatic 100000 transfer to separate savings account immediately after each Adewale Adeniji transfer",
+        "impact": "high",
+        "difficulty": "easy",
+        "time_to_implement": "1 hour",
+        "potential_monthly_savings": 0.00,
+        "priority_rank": 8
+      },
+      {
+        "action": "Reduce Chronicles Restaurant visits from 8 to 3 monthly saving 36838",
+        "impact": "medium",
+        "difficulty": "moderate",
+        "time_to_implement": "immediate",
+        "potential_monthly_savings": 36838.00,
+        "priority_rank": 9
+      },
+      {
+        "action": "Consolidate Esther Funmilayo Ajibola transfers from 14 to 4 monthly at fixed dates reducing transaction frequency",
+        "impact": "low",
+        "difficulty": "easy",
+        "time_to_implement": "immediate",
+        "potential_monthly_savings": 0.00,
+        "priority_rank": 10
+      }
+    ],
+    "30_day_challenges": [
+      {
+        "challenge": "Zero Cash Challenge - No ATM withdrawals for 30 days use only digital payments",
+        "goal": "Achieve 100 percent spending visibility and identify cash spending leakage",
+        "potential_savings": 125000.00,
+        "tracking_method": "Daily balance check and digital transaction log"
+      },
+      {
+        "challenge": "Overdraft Elimination Sprint - Clear 87954.79 overdraft within 30 days",
+        "goal": "Achieve positive balance and eliminate daily interest charges",
+        "potential_savings": 4995.81,
+        "tracking_method": "Weekly overdraft balance reduction target of 21988.70"
+      },
+      {
+        "challenge": "Restaurant Reduction Challenge - Cook 20 meals at home this month",
+        "goal": "Reduce restaurant spending from 167125 to 90000",
+        "potential_savings": 77125.00,
+        "tracking_method": "Meal prep log and restaurant visit counter"
+      },
+      {
+        "challenge": "Transfer Tracking Challenge - Document every transfer over 5000 with purpose and expected repayment",
+        "goal": "Build accountability system for person to person transfers",
+        "potential_savings": 0.00,
+        "tracking_method": "Google Sheets loan tracker with weekly reconciliation"
+      }
+    ],
+    "budget_recommendations": {
+      "recommended_budget": {
+        "essentials_50": 1028326.50,
+        "wants_30": 617003.90,
+        "savings_20": 411335.60
+      },
+      "current_allocation": {
+        "essentials": 889593.97,
+        "wants": 878938.35,
+        "savings": 38461.60
+      },
+      "adjustment_needed": {
+        "essentials": 138732.53,
+        "wants": -261934.45,
+        "savings": 372874.00
+      }
+    }
+  },
+  "2026_projections": {
+    "if_nothing_changes": {
+      "projected_annual_spending": 25283927.04,
+      "projected_annual_savings": 461539.20,
+      "projected_year_end_balance": -692047.51,
+      "financial_trajectory": "declining"
+    },
+    "if_recommendations_followed": {
+      "projected_annual_spending": 16776048.00,
+      "projected_annual_savings": 4936027.20,
+      "projected_year_end_balance": 3124885.69,
+      "improvement_amount": 3816933.20,
+      "improvement_percentage": 6.187
+    },
+    "milestone_predictions": [
+      {
+        "milestone": "Clear Current Overdraft",
+        "target_date": "2026-02-15",
+        "confidence_level": "medium",
+        "required_actions": [
+          "Reduce discretionary spending by 40 percent",
+          "Allocate 200000 from next income to overdraft",
+          "Eliminate all cash withdrawals for 45 days"
+        ]
+      },
+      {
+        "milestone": "Build 100000 Emergency Fund",
+        "target_date": "2026-03-31",
+        "confidence_level": "medium",
+        "required_actions": [
+          "Maintain positive balance for 30 days",
+          "Save 50000 monthly for 2 months",
+          "Reduce transfer spending to 350000 monthly"
+        ]
+      },
+      {
+        "milestone": "Achieve 15 Percent Savings Rate",
+        "target_date": "2026-06-30",
+        "confidence_level": "low",
+        "required_actions": [
+          "Maintain spending discipline for 90 days",
+          "Increase savings from 38461 to 308099 monthly",
+          "Implement and follow strict category budgets"
+        ]
+      },
+      {
+        "milestone": "Accumulate 500000 Emergency Fund",
+        "target_date": "2026-09-30",
+        "confidence_level": "low",
+        "required_actions": [
+          "Maintain 20 percent savings rate for 6 months",
+          "Eliminate all overdraft dependency",
+          "Track and collect outstanding loans from friends"
+        ]
+      }
+    ],
+    "quarterly_goals": [
+      {
+        "quarter": "Q1 2026",
+        "savings_target": 300000.00,
+        "spending_target": 1800000.00,
+        "focus_area": "Overdraft elimination and emergency fund seed"
+      },
+      {
+        "quarter": "Q2 2026",
+        "savings_target": 600000.00,
+        "spending_target": 1600000.00,
+        "focus_area": "Build 3 month emergency fund and stabilize cash flow"
+      },
+      {
+        "quarter": "Q3 2026",
+        "savings_target": 800000.00,
+        "spending_target": 1500000.00,
+        "focus_area": "Maintain discipline and explore investment options"
+      },
+      {
+        "quarter": "Q4 2026",
+        "savings_target": 1000000.00,
+        "spending_target": 1400000.00,
+        "focus_area": "Achieve 20 percent savings rate and begin wealth building"
+      }
+    ]
+  },
+  "shareable_stats": [
+    {
+      "stat_text": "Spent 167125 on restaurants but only 120360 on groceries while in overdraft all month",
+      "category": "lifestyle",
+      "comparison": "Restaurant spending 39 percent higher than grocery spending",
+      "virality_score": 8.7,
+      "visual_suggestion": "comparison"
+    },
+    {
+      "stat_text": "Visited Chronicles Restaurant 8 times in 31 days spending 58940 total",
+      "category": "dining",
+      "comparison": "Average 7367 per visit every 3.875 days",
+      "virality_score": 7.9,
+      "visual_suggestion": "number_highlight"
+    },
+    {
+      "stat_text": "Sent money to 48 different people totaling 714830 representing 34 percent of all spending",
+      "category": "generosity",
+      "comparison": "Transfer spending exceeds food dining shopping and entertainment combined",
+      "virality_score": 9.1,
+      "visual_suggestion": "pie_chart"
+    },
+    {
+      "stat_text": "Spent 319681.32 in single day on December 4th representing 15.2 percent of monthly spending",
+      "category": "spending_spike",
+      "comparison": "Single day spending was 4.7x average daily burn rate",
+      "virality_score": 8.8,
+      "visual_suggestion": "bar_chart"
+    },
+    {
+      "stat_text": "Maintained negative balance for all 31 days paying 4995.81 in overdraft interest",
+      "category": "financial_health",
+      "comparison": "Interest charges equivalent to 59949.72 annually",
+      "virality_score": 7.3,
+      "visual_suggestion": "number_highlight"
+    },
+    {
+      "stat_text": "Withdrew 500000 in cash across 5 perfect 100000 withdrawals",
+      "category": "cash_habits",
+      "comparison": "Cash represented 23.7 percent of total spending creating visibility gap",
+      "virality_score": 6.9,
+      "visual_suggestion": "number_highlight"
+    },
+    {
+      "stat_text": "Spent only 27893 on data and airtime for entire month",
+      "category": "efficiency",
+      "comparison": "Data spending 6x lower than restaurant spending showing selective discipline",
+      "virality_score": 7.1,
+      "visual_suggestion": "comparison"
+    },
+    {
+      "stat_text": "58.34 percent of monthly spending occurred in first 5 days after payday",
+      "category": "behavior_pattern",
+      "comparison": "Spent half monthly budget in first week showing lack of pacing",
+      "virality_score": 8.4,
+      "visual_suggestion": "pie_chart"
+    }
+  ],
+  "data_visualization_config": {
+    "recommended_charts": [
+      {
+        "chart_type": "pie",
+        "title": "Spending Distribution by Category",
+        "data_source": "spending_breakdown.categories",
+        "insights": "Transfers dominate at 34 percent followed by cash withdrawals at 24 percent and shopping at 11 percent"
+      },
+      {
+        "chart_type": "bar",
+        "title": "Top 10 Recipients of Transfers",
+        "data_source": "transfer_and_relationship_analysis.top_recipients",
+        "insights": "Oladipo Segun Babatu leads with 75010 followed by Esther Funmilayo Ajibola at 47190"
+      },
+      {
+        "chart_type": "line",
+        "title": "Daily Balance Trend",
+        "data_source": "cash_flow_analysis",
+        "insights": "Account never achieved positive balance throughout entire period trending from -37613.87 to -87954.79"
+      },
+      {
+        "chart_type": "bar",
+        "title": "Spending by Day of Week",
+        "data_source": "temporal_patterns.spending_by_day_of_week",
+        "insights": "Wednesday highest at 413698 while Sunday lowest at 105067 showing weekday spending concentration"
+      },
+      {
+        "chart_type": "doughnut",
+        "title": "Digital vs Cash Spending",
+        "data_source": "cash_vs_digital",
+        "insights": "76.3 percent digital spending vs 23.7 percent cash with 500000 creating tracking blind spot"
+      },
+      {
+        "chart_type": "bar",
+        "title": "Top Merchants by Total Spend",
+        "data_source": "merchants_and_vendors.top_merchants",
+        "insights": "Bovas Company leads at 96020 across 5 visits followed by Chronicles Restaurant at 58940 across 8 visits"
+      },
+      {
+        "chart_type": "line",
+        "title": "Income vs Spending Trend",
+        "data_source": "cash_flow_analysis",
+        "insights": "Total inflow 2056653 versus outflow 2106993.92 showing negative cashflow of -50340.92"
+      },
+      {
+        "chart_type": "heatmap",
+        "title": "Spending Heatmap by Day and Time",
+        "data_source": "temporal_patterns.spending_by_time_of_day",
+        "insights": "Evening hours 18:00 to 24:00 show highest activity with 621427.83 spent representing peak social spending"
+      },
+      {
+        "chart_type": "bar",
+        "title": "Comparison to Nigerian Average",
+        "data_source": "comparative_analysis.vs_nigerian_average",
+        "insights": "Significantly above average in restaurant spending 92nd percentile and transfers 88th percentile but below average in savings at 18th percentile"
+      },
+      {
+        "chart_type": "bar",
+        "title": "Monthly Recurring Commitments",
+        "data_source": "recurring_transactions.recurring_items",
+        "insights": "Total recurring commitments of 115495.81 led by savings deposits and subscription costs"
+      }
+    ]
+  }
+}

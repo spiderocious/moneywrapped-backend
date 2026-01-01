@@ -49,6 +49,30 @@ export const MESSAGE_KEYS = {
   TOO_MANY_REQUESTS: 'TOO_MANY_REQUESTS',
   TOO_MANY_AUTH_ATTEMPTS: 'TOO_MANY_AUTH_ATTEMPTS',
 
+  // File processing
+  FILE_PROCESSED_SUCCESS: 'FILE_PROCESSED_SUCCESS',
+  FILE_PROCESSING_FAILED: 'FILE_PROCESSING_FAILED',
+  INVALID_FILE_TYPE: 'INVALID_FILE_TYPE',
+  FILE_REQUIRED: 'FILE_REQUIRED',
+
+  // Analysis
+  ANALYSIS_JOB_CREATED: 'ANALYSIS_JOB_CREATED',
+  ANALYSIS_JOB_CREATION_FAILED: 'ANALYSIS_JOB_CREATION_FAILED',
+  ANALYSES_FETCHED: 'ANALYSES_FETCHED',
+  ANALYSES_FETCH_FAILED: 'ANALYSES_FETCH_FAILED',
+  ANALYSIS_FETCHED: 'ANALYSIS_FETCHED',
+  ANALYSIS_FETCH_FAILED: 'ANALYSIS_FETCH_FAILED',
+  ANALYSIS_NOT_FOUND: 'ANALYSIS_NOT_FOUND',
+  INVALID_REQUEST: 'INVALID_REQUEST',
+
+  // Quota and Tier
+  QUOTA_EXCEEDED: 'QUOTA_EXCEEDED',
+  QUOTA_UPDATED: 'QUOTA_UPDATED',
+  QUOTA_UPDATE_FAILED: 'QUOTA_UPDATE_FAILED',
+  TIER_UPDATED: 'TIER_UPDATED',
+  TIER_UPDATE_FAILED: 'TIER_UPDATE_FAILED',
+  USERS_FETCHED: 'USERS_FETCHED',
+
   // Validation comments
   VALIDATION_FAST: 'VALIDATION_FAST',
   VALIDATION_GENIUS: 'VALIDATION_GENIUS',
@@ -228,6 +252,102 @@ export const MESSAGES = {
     en: 'Too many authentication attempts, please try again later',
     es: 'Demasiados intentos de autenticación, inténtelo más tarde',
     fr: "Trop de tentatives d'authentification, veuillez réessayer plus tard",
+  },
+
+  // File processing
+  FILE_PROCESSED_SUCCESS: {
+    en: 'File processed successfully',
+    es: 'Archivo procesado exitosamente',
+    fr: 'Fichier traité avec succès',
+  },
+  FILE_PROCESSING_FAILED: {
+    en: 'Failed to process file',
+    es: 'Error al procesar el archivo',
+    fr: 'Échec du traitement du fichier',
+  },
+  INVALID_FILE_TYPE: {
+    en: 'Invalid file type. Only CSV, TXT, and PDF files are allowed',
+    es: 'Tipo de archivo inválido. Solo se permiten archivos CSV, TXT y PDF',
+    fr: 'Type de fichier invalide. Seuls les fichiers CSV, TXT et PDF sont autorisés',
+  },
+  FILE_REQUIRED: {
+    en: 'File is required',
+    es: 'Se requiere un archivo',
+    fr: 'Le fichier est requis',
+  },
+
+  // Analysis
+  ANALYSIS_JOB_CREATED: {
+    en: 'Analysis job created successfully',
+    es: 'Trabajo de análisis creado exitosamente',
+    fr: "Travail d'analyse créé avec succès",
+  },
+  ANALYSIS_JOB_CREATION_FAILED: {
+    en: 'Failed to create analysis job',
+    es: 'Error al crear trabajo de análisis',
+    fr: "Échec de la création du travail d'analyse",
+  },
+  ANALYSES_FETCHED: {
+    en: 'Analyses fetched successfully',
+    es: 'Análisis obtenidos exitosamente',
+    fr: 'Analyses récupérées avec succès',
+  },
+  ANALYSES_FETCH_FAILED: {
+    en: 'Failed to fetch analyses',
+    es: 'Error al obtener análisis',
+    fr: 'Échec de la récupération des analyses',
+  },
+  ANALYSIS_FETCHED: {
+    en: 'Analysis fetched successfully',
+    es: 'Análisis obtenido exitosamente',
+    fr: 'Analyse récupérée avec succès',
+  },
+  ANALYSIS_FETCH_FAILED: {
+    en: 'Failed to fetch analysis',
+    es: 'Error al obtener análisis',
+    fr: "Échec de la récupération de l'analyse",
+  },
+  ANALYSIS_NOT_FOUND: {
+    en: 'Analysis not found',
+    es: 'Análisis no encontrado',
+    fr: 'Analyse non trouvée',
+  },
+  INVALID_REQUEST: {
+    en: 'Invalid request',
+    es: 'Solicitud inválida',
+    fr: 'Demande invalide',
+  },
+
+  // Quota and Tier
+  QUOTA_EXCEEDED: {
+    en: 'Analysis quota exceeded',
+    es: 'Cuota de análisis excedida',
+    fr: "Quota d'analyse dépassé",
+  },
+  QUOTA_UPDATED: {
+    en: 'User quota updated successfully',
+    es: 'Cuota de usuario actualizada exitosamente',
+    fr: "Quota d'utilisateur mis à jour avec succès",
+  },
+  QUOTA_UPDATE_FAILED: {
+    en: 'Failed to update user quota',
+    es: 'Error al actualizar cuota de usuario',
+    fr: "Échec de la mise à jour du quota d'utilisateur",
+  },
+  TIER_UPDATED: {
+    en: 'User tier updated successfully',
+    es: 'Nivel de usuario actualizado exitosamente',
+    fr: "Niveau d'utilisateur mis à jour avec succès",
+  },
+  TIER_UPDATE_FAILED: {
+    en: 'Failed to update user tier',
+    es: 'Error al actualizar nivel de usuario',
+    fr: "Échec de la mise à jour du niveau d'utilisateur",
+  },
+  USERS_FETCHED: {
+    en: 'Users fetched successfully',
+    es: 'Usuarios obtenidos exitosamente',
+    fr: 'Utilisateurs récupérés avec succès',
   },
 
   // Validation comments
