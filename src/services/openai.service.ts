@@ -77,7 +77,6 @@ export class OpenAIService {
 
     try {
       const systemPrompt = aiConfig.prompt;
-      logger.log('System Prompt:', systemPrompt);
       logger.info(`Starting OpenAI file-based analysis for ${fileName} with ${aiConfig.model}`);
 
       // Step 1: Upload file to OpenAI Files API
@@ -89,7 +88,7 @@ export class OpenAIService {
 
       uploadedFileId = uploadedFile.id;
       logger.info(`File uploaded successfully with ID: ${uploadedFileId}`);
-
+      logger.info('Proceeding to analyze the uploaded file...');
       // Step 2: Use the file_id in chat completion
       const response = await this.client.chat.completions.create({
         model: aiConfig.model,
@@ -126,14 +125,14 @@ export class OpenAIService {
         timeout: 600000, // 10 minutes
       });
 
+      logger.info('OpenAI file-based analysis response received');
+
       const content = response.choices[0]?.message?.content;
 
       if (!content) {
         logger.error('OpenAI returned empty response');
         return { success: false, error: 'AI returned empty response' };
       }
-
-      console.log('OpenAI Response Content:', content);
 
       // Try to parse as JSON
       try {
