@@ -11,7 +11,7 @@ const fileFilter = (req: Request, file: Express.Multer.File, cb: multer.FileFilt
     'application/x-pdf',
   ];
 
-  const allowedExtensions = ['.csv', '.txt', '.pdf'];
+  const allowedExtensions = ['.csv', '.txt', '.pdf', '.xls', '.xlsx'];
   const fileExtension = file.originalname.toLowerCase().substring(file.originalname.lastIndexOf('.'));
 
   if (allowedMimeTypes.includes(file.mimetype) || allowedExtensions.includes(fileExtension)) {

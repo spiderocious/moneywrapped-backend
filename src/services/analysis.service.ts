@@ -12,6 +12,7 @@ import {
 import { MESSAGE_KEYS } from '@shared/constants';
 import { logger, generateId } from '@utils';
 import { aiConfig } from '@configs';
+import { mapFlatDataToBetterOutput } from './mapper.service';
 
 export class AnalysisService {
   private static instance: AnalysisService;
@@ -166,6 +167,8 @@ export class AnalysisService {
           }
         : undefined;
 
+      console.log('Extracted metadata:', metadata);
+      console.log('Full analysis result:', result.data?.analysis_metadata);
       // Update job with success
       await AnalysisJobModel.findOneAndUpdate(
         { id: jobId },
@@ -221,7 +224,10 @@ export class AnalysisService {
         uploadedAt: job.uploadedAt,
         completedAt: job.completedAt,
         metadata: job.metadata,
+        ...job?.metadata,
       }));
+
+      console.log(jobs[0], analyses[0]);
 
       return new ServiceSuccess(analyses, MESSAGE_KEYS.ANALYSES_FETCHED);
     } catch (error: any) {
@@ -252,6 +258,8 @@ export class AnalysisService {
         metadata: job.metadata,
         analysisResult: job.analysisResult,
         errorMessage: job.errorMessage,
+        data: mapFlatDataToBetterOutput(job?.analysisResult as any),
+        ...job?.metadata,
       };
 
       return new ServiceSuccess(detail, MESSAGE_KEYS.ANALYSIS_FETCHED);

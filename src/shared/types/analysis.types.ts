@@ -43,5 +43,6 @@ export interface AnalysisJobDetailResponse {
   completedAt?: Date;
   metadata?: IAnalysisMetadata;
   analysisResult?: any;
+  data?: any;
   errorMessage?: string;
 }

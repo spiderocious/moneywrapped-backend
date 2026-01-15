@@ -1,6 +1,7 @@
 import OpenAI from 'openai';
 import { aiConfig } from '@configs';
 import { generateId, logger } from '@utils';
+import { analysisResult } from '../mocks';
 
 export class OpenAIService {
   private static instance: OpenAIService;
@@ -20,7 +21,7 @@ export class OpenAIService {
   }
 
   async analyzeStatement(fileContent: string): Promise<{ success: boolean; data?: any; error?: string }> {
-    try {
+   try {
       const systemPrompt = aiConfig.prompt;
       const userPrompt = `BELOW IS THE DATA TO BE ANALYZED:\n\n${fileContent}`;
       logger.log('System Prompt:', systemPrompt);
@@ -90,6 +91,8 @@ export class OpenAIService {
       logger.info(`File uploaded successfully with ID: ${uploadedFileId}`);
       logger.info('Proceeding to analyze the uploaded file...');
       // Step 2: Use the file_id in chat completion
+      //console.log('System Prompt:', systemPrompt);
+      //return { success: false, error: 'Failed to parse AI response as JSON' };
       const response = await this.client.chat.completions.create({
         model: aiConfig.model,
         messages: [
@@ -115,11 +118,11 @@ export class OpenAIService {
           } as any,
         ],
         response_format: { type: 'json_object' },
-        // @ts-ignore - Extended parameters
+        // // @ts-ignore - Extended parameters
         verbosity: 'medium',
-        // @ts-ignore
+        // // @ts-ignore
         reasoning_effort: 'medium',
-        // @ts-ignore
+        // // @ts-ignore
         store: false,
       } as any, {
         timeout: 600000, // 10 minutes
@@ -133,6 +136,8 @@ export class OpenAIService {
         logger.error('OpenAI returned empty response');
         return { success: false, error: 'AI returned empty response' };
       }
+
+      console.log('OpenAI File-Based Response Content:', content);
 
       // Try to parse as JSON
       try {
