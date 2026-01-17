@@ -166,9 +166,6 @@ export class AnalysisService {
             account_type: result.data.analysis_metadata.account_type,
           }
         : undefined;
-
-      console.log('Extracted metadata:', metadata);
-      console.log('Full analysis result:', result.data?.analysis_metadata);
       // Update job with success
       await AnalysisJobModel.findOneAndUpdate(
         { id: jobId },
@@ -226,8 +223,6 @@ export class AnalysisService {
         metadata: job.metadata,
         ...job?.metadata,
       }));
-
-      console.log(jobs[0], analyses[0]);
 
       return new ServiceSuccess(analyses, MESSAGE_KEYS.ANALYSES_FETCHED);
     } catch (error: any) {
